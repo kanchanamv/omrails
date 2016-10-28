@@ -1,5 +1,7 @@
+
+//custom bootstrap variables should be set or imported before bootstrap itself 
+@import "bootstrap_customization";
 @import "bootstrap";
 
 @import "pages";
-
-@import "bootstrap_customization.scss";
+@import "signin_and_signup";
