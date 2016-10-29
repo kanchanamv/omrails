@@ -13,5 +13,6 @@ ActiveAdmin.register Tweet do
 #   permitted
 # end
 
+	permit_params :list, :of, :attributes, :on, :model, :content
 
 end
